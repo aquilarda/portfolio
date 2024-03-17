@@ -1,5 +1,6 @@
 import React from "react";
 import "@/app/components/projects/projects.css";
+import Image from 'next/image'
 
 const Projects = () => {
   return (
@@ -14,12 +15,13 @@ const Projects = () => {
         <p className="project-description">
           I have created a website for our team, Voltran, where you can find
           information about our members, team projects, daily or weekly updates,
-          and details about the team's goals. <br /> <br />
+          and details about the team&apos;s goals. <br /> <br />
         </p>
         <a href="https://dc-aquila.netlify.app/" className="project-link p-2">DC-Aquila</a>
         <p className="project-description">Digital version of the Truth or Dare game. Only avaible in Turkish, for now.</p>
         <p className="note p-16">I am working on new projects, so I will add my new projects here soon..</p>
       </div>
+      
     </main>
   );
 };

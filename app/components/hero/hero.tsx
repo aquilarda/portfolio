@@ -1,5 +1,6 @@
 import React from "react";
 import "@/app/components/hero/hero.css";
+import Image from 'next/image'
 
 const Hero = () => {
   return (
@@ -7,7 +8,7 @@ const Hero = () => {
       <div className="main-div flex justify-center items-center">
         
         <div className="profile-image rounded-2xl m-8">
-          <img
+          <Image
             src="/akame.png"
             alt="Profile Picture"
             className="picture-class rounded-xl shadow-2xl"

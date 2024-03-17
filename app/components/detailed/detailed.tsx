@@ -1,5 +1,6 @@
 import React from "react";
 import "@/app/components/detailed/detailed.css";
+import Image from 'next/image'
 
 const Detailed = () => {
   return (
@@ -20,7 +21,7 @@ const Detailed = () => {
 
 
         <div className="detailed-profile-image rounded-2xl m-8">
-          <img
+          <Image
             src="/akame_new.png"
             alt="Akame"
             className="detailed-picture-class rounded-xl shadow-2xl"
