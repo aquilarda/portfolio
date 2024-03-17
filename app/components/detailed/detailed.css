@@ -1,0 +1,42 @@
+.detailed-picture-class{
+    width: 17.5rem;
+    border: solid 0.2rem #CD2828;
+}
+
+.detailed-about-me-title{
+    font-size: xx-large;
+    color: #CD2828;
+}
+
+.detailed-about-me-text{
+    font-size: x-large;
+    color: #3C4783;
+    max-width: 20rem;
+}
+
+@media only screen and (max-width: 600px){
+    .detailed-main-div{
+        flex-direction: column-reverse;
+    }
+
+    .detailed-picture-class{
+        width: 10rem;
+    }
+    
+    .detailed-profile-image{
+        margin: 1rem;
+    }
+
+    .detailed-about-me-title{
+        font-size: x-large;
+    }
+    
+    .detailed-about-me-text{
+        font-size: large;
+        max-width: 10rem;
+    }
+
+    .detailed-about-me{
+        margin: 1rem;
+    }
+}
