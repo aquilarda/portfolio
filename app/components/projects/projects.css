@@ -1,0 +1,39 @@
+.projects-title{
+    font-size: xx-large;
+    color: #CD2828;
+}
+
+.project-link{
+    font-size: x-large;
+    color: #3C4783;
+}
+
+.project-description{
+    color: #000000;
+    font-size: larger;
+    max-width: 25rem;
+}
+
+.note{
+    color: #3C4783;
+    font-size: x-large;
+}
+
+@media only screen and (max-width: 600px){
+    .projects-title{
+        font-size: x-large;
+    }
+    
+    .project-link{
+        font-size: larger;
+    }
+    
+    .project-description{
+        font-size: large;
+        max-width: 15rem;
+    }
+    
+    .note{
+        font-size: larger;
+    }
+}
