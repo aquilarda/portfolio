@@ -1,6 +1,5 @@
 import React from "react";
 import "@/app/components/projects/projects.css";
-import Image from 'next/image'
 
 const Projects = () => {
   return (
@@ -9,7 +8,7 @@ const Projects = () => {
         <h1 className="projects-title p-4 ">Projects</h1>
       </div>
       <div className="project-list-div flex flex-col justify-center text-center items-center">
-        <a href="https://voltranwebsite.vercel.app" className="project-link p-2">
+        <a href="https://voltranwebsite.vercel.app" className="project-link shadow-2xl p-4 rounded-xl m-4">
           Voltran
         </a>
         <p className="project-description">
@@ -17,7 +16,7 @@ const Projects = () => {
           information about our members, team projects, daily or weekly updates,
           and details about the team&apos;s goals. <br /> <br />
         </p>
-        <a href="https://dc-aquila.netlify.app/" className="project-link p-2">DC-Aquila</a>
+        <a href="https://dc-aquila.netlify.app/" className="project-link shadow-2xl p-4 rounded-xl m-4">DC-Aquila</a>
         <p className="project-description">Digital version of the Truth or Dare game. Only avaible in Turkish, for now.</p>
         <p className="note p-16">I am working on new projects, so I will add my new projects here soon..</p>
       </div>

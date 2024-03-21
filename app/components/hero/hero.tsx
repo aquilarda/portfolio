@@ -12,6 +12,8 @@ const Hero = () => {
             src="/akame.png"
             alt="Profile Picture"
             className="picture-class rounded-xl shadow-2xl"
+            width={280}
+            height={280}
           />
         </div>
 

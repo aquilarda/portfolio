@@ -25,6 +25,8 @@ const Detailed = () => {
             src="/akame_new.png"
             alt="Akame"
             className="detailed-picture-class rounded-xl shadow-2xl"
+            width={280}
+            height={280}
           />
         </div>
       </div>
