@@ -6,7 +6,7 @@ const Contact = () => {
     <main>
       <div className="contact-div flex justify-center text-center items-center m-8">
       <a href="mailto:ahmetardayesildag@icloud.com" className="shadow-2xl p-4 rounded-xl">Mail <br />
-      ahmetardayesildag@icloud.com</a>
+      ahmetardayesildag@gmail.com</a>
       </div>
     </main>
   );
