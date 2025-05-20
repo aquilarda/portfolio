@@ -12,7 +12,7 @@ const Detailed = () => {
           </h1>
           <h3 className="detailed-about-me-text">
               <br />
-              A 16-years-old UI/UX designer and front-end web
+              A 17-years-old front-end web
               developer from Turkey. My goal is creating nice and clean
               websites. I mostly use React/Next.js with Tailwind CSS and
               TypeScript. I support Free and Open Source Software.
