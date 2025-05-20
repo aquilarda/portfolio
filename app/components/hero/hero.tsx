@@ -22,7 +22,7 @@ const Hero = () => {
             Front-end Web Developer
           </h1>
           <h3 className="about-me-text text-center"> <br />
-              Hi! I’m Arda. A enthusiastic UI/UX designer and front-end web
+              Hi! I’m Arda. A enthusiastic front-end web
               developer.
             </h3>
         </div>
